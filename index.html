@@ -39,9 +39,17 @@
             border-radius: 5px;
             text-decoration: none;
             cursor: pointer;
+            margin-right: 10px;
         }
         .btn:hover {
             background-color: #e5533b;
+        }
+        .btn-grey {
+            background-color: #c0c0c0;
+            cursor: not-allowed;
+        }
+        .btn-grey:hover {
+            background-color: #c0c0c0;
         }
     </style>
 </head>
@@ -50,6 +58,7 @@
         <h1>Hey Ria!</h1>
         <p>Would you like to go out for some ice cream?</p>
         <button class="btn" id="confetti-button">Yes, I'd love to!</button>
+        <a href="https://www.selfhelpguide.org/" class="btn btn-grey" id="no-button">No, maybe next time</a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
